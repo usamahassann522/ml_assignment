@@ -94,12 +94,12 @@ Three synthetic datasets testing SVM flexibility:
 ## Visualizations
 
 ### 1. Dataset Overview
-![Datasets](ml_assignment/image_0.png)
+![Datasets](images/image_0.png)
 
 Three dataset types showing progression from easy (linear) to impossible (circles) to medium (moons) difficulty.
 
 ### 2. C Parameter Impact (Linear Kernel)
-![C Parameter](images/svm_linear_c_comparison.png)
+![C Parameter](images/image_1.png)
 
 Six subplots showing how C controls margin width:
 - **Low C (orange):** Wide margin, many support vectors, tolerates errors
@@ -107,12 +107,12 @@ Six subplots showing how C controls margin width:
 - **High C (red):** Narrow margin, few support vectors, minimizes errors
 
 ### 3. Kernel Comparison
-![Kernel Comparison](images/svm_kernel_comparison.png)
+![Kernel Comparison](images/image_2.png)
 
 2×3 grid comparing linear and RBF kernels across all datasets. Shows dramatic failure of linear kernel on circles dataset (46.7% → 98.3% with RBF).
 
 ### 4. Gamma Parameter Impact (RBF Kernel)
-![Gamma Parameter](images/svm_rbf_gamma_comparison.png)
+![Gamma Parameter](images/image_3.png)
 
 Six subplots showing gamma's effect on decision boundary complexity:
 - **Low gamma (orange):** Smooth, almost linear boundary (underfits)
@@ -120,12 +120,12 @@ Six subplots showing gamma's effect on decision boundary complexity:
 - **High gamma (red):** Extremely wiggly, overfits training noise
 
 ### 5. Grid Search Results
-![Grid Search](images/svm_grid_search_heatmap.png)
+![Grid Search](images/image_4.png)
 
 Heatmap showing test accuracy for all C × gamma combinations. Darker green = better performance. Reveals optimal region at C=0.1-1, gamma=0.1-1.
 
 ### 6. Performance Summary
-![Performance Summary](images/svm_performance_summary.png)
+![Performance Summary](images/image_5.png)
 
 Three-panel summary showing:
 - Left: C parameter effect on accuracy
@@ -133,7 +133,7 @@ Three-panel summary showing:
 - Right: Support vectors vs C (inverse relationship)
 
 ### 7. Confusion Matrices
-![Confusion Matrices](images/svm_confusion_matrices.png)
+![Confusion Matrices](images/image_6.png)
 
 Error analysis for three configurations:
 - Linear kernel: 83.3% accuracy, 10 errors
