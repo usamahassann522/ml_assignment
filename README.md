@@ -94,7 +94,7 @@ Three synthetic datasets testing SVM flexibility:
 ## Visualizations
 
 ### 1. Dataset Overview
-![Datasets](images/svm_datasets_overview.png)
+![Datasets](ml_assignment/image_0.png)
 
 Three dataset types showing progression from easy (linear) to impossible (circles) to medium (moons) difficulty.
 
